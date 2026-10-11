@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.db
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
+
+# Env
+.env
+.env.local
+
+# Uploads
+backend/uploads/avatars/*
+backend/uploads/chat_images/*
+!backend/uploads/avatars/.gitkeep
+!backend/uploads/chat_images/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

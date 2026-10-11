@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import sys; sys.path.insert\\(0, '.'\\); from app.main import app; print\\('Import OK'\\)\")",
+      "Bash(.venv/Scripts/uvicorn.exe app.main:app *)"
+    ]
+  }
+}
